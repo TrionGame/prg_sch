@@ -1,0 +1,22 @@
+1. リポジトリの初期化
+git init
+
+2. GitHubに新しいリポジトリを作成
+GitHubのWebサイトで新しいリポジトリを作成します。
+SSHまたはHTTPSのURLを取得しておきます。
+
+3. GitHubリモートリポジトリを追加
+git remote add origin <リポジトリのURL>
+
+4. 変更の確認
+git status
+
+5. ステージング（インデックスに追加）
+git add .
+git add <ファイル名>
+
+6. コミット
+git commit -m "ここにコミットメッセージを記入"
+
+7. プッシュ
+コミットをGitHubのリモートリポジトリにプッシュします。
