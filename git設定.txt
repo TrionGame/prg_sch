@@ -19,4 +19,4 @@ git add <ファイル名>
 git commit -m "ここにコミットメッセージを記入"
 
 7. プッシュ
-コミットをGitHubのリモートリポジトリにプッシュします。
+git push -u origin main
